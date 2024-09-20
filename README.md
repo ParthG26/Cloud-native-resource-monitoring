@@ -3,10 +3,10 @@
 1. Python and How to create Monitoring Application in Python using Flask and psutil
 2. How to run a Python App locally.
 3. Learn Docker and How to containerize a Python application
-   - i. Creating Dockerfile
-   - ii. Building DockerImage
-   - iii. Running Docker Container
-   - iv. Docker Commands
+   - Creating Dockerfile
+   - Building DockerImage
+   - Running Docker Container
+   - Docker Commands
 5. Create ECR repository using Python Boto3 and pushing Docker Image to ECR
 6. Learn Kubernetes and Create EKS cluster and Nodegroups
 7. Create Kubernetes Deployments and Services using Python!
@@ -24,9 +24,9 @@
 ## Part 1: Deploying the Flask application locally
 ### Step 1: Clone the code
 Clone the code from the repository:
-
+```
 git clone <repository_url>
-
+```
 ### Step 2: Install dependencies
 The application uses the psutil and Flask, Plotly, boto3 libraries. Install them using pip:
 
