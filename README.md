@@ -41,7 +41,7 @@ This will start the Flask server on localhost:5000. Navigate to http://localhost
 
 ## Part 2: Dockerizing the Flask application
 ### Step 1: Create a Dockerfile
-Create a Dockerfile in the root directory of the project with the following contents:
+Create a ==Dockerfile== in the root directory of the project with the following contents:
 ```
 # Use the official Python image as the base image
 FROM python:3.9-slim-buster
